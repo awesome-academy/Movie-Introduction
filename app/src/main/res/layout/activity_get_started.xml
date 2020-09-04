@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_get_started"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".ui.main.GetStarted">
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginBottom="@dimen/dp_108"
+        android:background="@drawable/bg_rounded_rectangle"
+        android:text="@string/get_started"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_228"
+        android:text="@string/welcome_app"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_40"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGetStarted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
