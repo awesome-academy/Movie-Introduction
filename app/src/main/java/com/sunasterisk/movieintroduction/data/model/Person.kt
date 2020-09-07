@@ -4,5 +4,5 @@ data class Person(
     val id: Int,
     val name: String,
     val birthday: String,
-    val overview: String?,
+    val overview: String?
 )
