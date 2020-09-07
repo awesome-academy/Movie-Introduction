@@ -17,6 +17,7 @@ class GetStarted : AppCompatActivity() {
 
         buttonGetStarted.setOnClickListener {
             startActivity(MainActivity.getIntent(this))
+            finish()
         }
     }
 

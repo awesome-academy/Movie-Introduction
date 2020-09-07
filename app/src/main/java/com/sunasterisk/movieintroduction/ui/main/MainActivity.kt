@@ -3,10 +3,12 @@ package com.sunasterisk.movieintroduction.ui.main
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.sunasterisk.movieintroduction.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,7 +16,28 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        fun getIntent (context: Context) = Intent(context, MainActivity::class.java)
+        fun getIntent(context: Context) = Intent(context, MainActivity::class.java)
+    }
+
+    override fun onNavigationItemSelected(p0: MenuItem): Boolean {
+        when (p0.itemId) {
+            R.id.itemHome -> {
+                return true
+            }
+            R.id.itemToprate -> {
+                return true
+            }
+            R.id.itemNowplay -> {
+                return true
+            }
+            R.id.itemUpcomming -> {
+                return true
+            }
+            R.id.itemMyfavorite -> {
+                return true
+            }
+        }
+        return false
     }
 
 }

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Movie Introduction</string>
-    <string name="get_started">Get Started</string>
-    <string name="welcome_app">The film world</string>
-
+    <string name="action_get_started">Get Started</string>
+    <string name="title_welcome_app">The film world</string>
+    <string name="title_home">Home</string>
+    <string name="title_toprate">Top rate</string>
+    <string name="title_nowplay">Now Playing</string>
+    <string name="title_upcomming">Upcomming</string>
+    <string name="title_myfavorite">My Favorite</string>
 </resources>
