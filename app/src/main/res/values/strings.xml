@@ -2,9 +2,14 @@
     <string name="app_name">Movie Introduction</string>
     <string name="action_get_started">Get Started</string>
     <string name="title_welcome_app">The film world</string>
+    <string name="title_genres">Genres</string>
     <string name="title_home">Home</string>
     <string name="title_toprate">Top rate</string>
     <string name="title_nowplay">Now Playing</string>
     <string name="title_upcomming">Upcomming</string>
     <string name="title_myfavorite">My Favorite</string>
+    <string name="title_action">Action</string>
+    <string name="title_date">Aug, 20, 2020</string>
+    <string name="title_point">9.1</string>
+    <string name="title_movie_name">Spider Man 3</string>
 </resources>
