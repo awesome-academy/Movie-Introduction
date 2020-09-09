@@ -9,4 +9,4 @@
     android:orientation="vertical"
     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
     app:spanCount="2"
-    tools:listitem="@layout/item_upcomming_movie" />
+    tools:listitem="@layout/item_favorite_movie" />
