@@ -11,14 +11,11 @@ class GetStarted : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_get_started)
-
         val anim = AnimationUtils.loadAnimation(applicationContext, R.anim.fade_in)
         buttonGetStarted.startAnimation(anim)
-
         buttonGetStarted.setOnClickListener {
             startActivity(MainActivity.getIntent(this))
             finish()
         }
     }
-
 }
