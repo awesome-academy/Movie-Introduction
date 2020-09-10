@@ -13,4 +13,5 @@
         android:text="@string/title_action"
         android:textColor="@android:color/white"
         android:textSize="@dimen/sp_40" />
+
 </FrameLayout>

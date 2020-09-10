@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dp_64"
+    android:layout_height="@dimen/dp_55"
+    android:layout_margin="@dimen/dp_5"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/imageAvata"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:scaleType="fitCenter"
+        android:src="@drawable/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textFullName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/title_name_cast"
+        android:textColor="@color/color_cape_cod"
+        android:textSize="@dimen/sp_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAvata" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
