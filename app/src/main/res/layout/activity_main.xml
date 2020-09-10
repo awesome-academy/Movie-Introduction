@@ -17,9 +17,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:menu="@menu/menu_home"
+        app:menu="@menu/menu_toolbar_main"
         app:title="@string/title_genres"
-        app:titleTextColor="@color/colorCapeCod" />
+        app:titleTextColor="@color/color_cape_cod" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"

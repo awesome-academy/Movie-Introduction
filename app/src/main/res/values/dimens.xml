@@ -15,7 +15,10 @@
     <dimen name="dp_409">409dp</dimen>
     <dimen name="dp_617">617dp</dimen>
 
+    <dimen name="sp_8">8sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
     <dimen name="sp_16">16sp</dimen>
     <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_26">26sp</dimen>
     <dimen name="sp_40">40sp</dimen>
 </resources>
