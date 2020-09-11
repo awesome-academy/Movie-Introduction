@@ -1,16 +1,14 @@
 package com.sunasterisk.movieintroduction.ui.main
 
-import android.os.Bundle
 import android.view.animation.AnimationUtils
-import androidx.appcompat.app.AppCompatActivity
 import com.sunasterisk.movieintroduction.R
+import com.sunasterisk.movieintroduction.ui.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_get_started.*
 
-class GetStarted : AppCompatActivity() {
+class GetStarted : BaseActivity() {
+    override val layoutResource: Int = R.layout.activity_get_started
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_get_started)
+    override fun initComponent() {
         val anim = AnimationUtils.loadAnimation(applicationContext, R.anim.fade_in)
         buttonGetStarted.startAnimation(anim)
         buttonGetStarted.setOnClickListener {
